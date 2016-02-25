@@ -1,3 +1,9 @@
+How I use
+---
+```
+ln -s ~/git/puppet-module-skeleton/skeleton/ ~/.puppet/cache/puppet-module/skeleton
+```
+
 License
 ---
 ```
