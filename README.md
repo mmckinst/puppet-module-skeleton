@@ -6,6 +6,8 @@ ln -s ~/git/puppet-module-skeleton/skeleton/ ~/.puppet/cache/puppet-module/skele
 
 License
 ---
+![license](https://licensebuttons.net/p/zero/1.0/88x31.png)
+
 ```
 Written in 2016 by Mark McKinstry
 
