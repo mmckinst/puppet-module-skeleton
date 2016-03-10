@@ -1,7 +1,7 @@
 How I use
 ---
 ```
-ln -s ~/git/puppet-module-skeleton/skeleton/ ~/.puppet/cache/puppet-module/skeleton
+ln -s ~/git/puppet-module-skeleton/skeleton/ $(puppet apply --configprint module_working_dir)/skeleton
 puppet module generate username-modulename
 ```
 
