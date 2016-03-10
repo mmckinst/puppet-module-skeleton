@@ -6,6 +6,10 @@ ln -s ~/git/puppet-module-skeleton/skeleton/ ~/.puppet/cache/puppet-module/skele
 
 License
 ---
+This is licensed under [CC0](http://creativecommons.org/publicdomain/zero/1.0/)
+so you can create modules without having to retain a copyright notice anywhere
+or attribute anything to this skeleton.
+
 ![license](https://licensebuttons.net/p/zero/1.0/88x31.png)
 
 ```
