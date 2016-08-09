@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/mmckinst/puppet-module-skeleton.svg?branch=travis)](https://travis-ci.org/mmckinst/puppet-module-skeleton)
+
 How I use
 ---
 ```
