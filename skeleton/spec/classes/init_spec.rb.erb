@@ -15,14 +15,4 @@ describe '<%= metadata.name %>' do
       end
     end
   end
-  context 'unsupported operating systems' do
-    let(:facts) do
-      { :operatingsystem => 'Windows'}
-    end
-    it do
-      expect {
-       catalogue
-      }.to raise_error(Puppet::Error, /supported by <%= metadata.name %>/)
-    end
-  end
 end

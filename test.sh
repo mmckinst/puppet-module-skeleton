@@ -23,3 +23,4 @@ sed -i 's/Apache 2.0/Apache-2.0/' metadata.json
 BUNDLE_GEMFILE=./Gemfile bundle install --without system_tests
 BUNDLE_GEMFILE=./Gemfile bundle exec rake validate
 BUNDLE_GEMFILE=./Gemfile bundle exec rake lint
+BUNDLE_GEMFILE=./Gemfile bundle exec rake spec
