@@ -15,6 +15,7 @@ if [[ -e johndoe-ntp ]]; then
 fi
 
 cd ntp
+for x in manifests/*pp; do echo $x; cat $x;done;
 
 # https://tickets.puppetlabs.com/browse/PUP-3894
 sed -i 's/Apache 2.0/Apache-2.0/' metadata.json
